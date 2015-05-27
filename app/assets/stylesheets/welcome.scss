@@ -28,10 +28,13 @@ button {
 }
 
 #gridWrapper {
-    background-color: #FFF;
+    // background-color: #FFF;
+        background-color: black;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    // width: 368px;
+    // height: 368px;
     width: 384px;
     height: 384px;
     // width: 192px;
@@ -41,7 +44,8 @@ button {
 
 .divGrid {
     display: inline-block;
-    background-color: #FFF;
+    // background-color: #FFF;
+    background-color: black;
     border: solid 1px #FFF;
     padding: 0px;
     margin:  0px;
@@ -49,6 +53,7 @@ button {
     width:   20px;
     // height:  10px;
     // width:   10px;
+    border-radius:50%
 }
 
 #colorWrapper {
