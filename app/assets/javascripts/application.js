@@ -57,7 +57,8 @@ $(document).ready(function () {
 
     // Clear button event handler
     $("#clear").click(function() {
-        $(".divGrid").css({"background-color" : "#FFF", "border-color" : "#FFF"});
+        // $(".divGrid").css({"background-color" : "#FFF", "border-color" : "#FFF"});
+            $(".divGrid").css({"background-color" : "#000", "border-color" : "#FFF"});
     });
 
     // Random colors button event handler
