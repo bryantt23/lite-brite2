@@ -3,14 +3,21 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-    background-color: #BBB;
+    // background-color: #BBB;
+        background-color: #1f263b;
     font-family: Georgia, serif;
 }
 
 h1 {
     margins: 20px;
     text-align: center;
+        color: red;
 }
+
+h1 .h1color {
+    color: #39FF14;
+}
+
 
 button {
     border: 0px;
