@@ -75,7 +75,8 @@ $(document).ready(function () {
     function setSingleDraw() {
 
         // Establishes the initial black-only coloring method
-        $(".divGrid").on("mouseenter", function() {
+        // $(".divGrid").on("mouseenter", function() {
+        $(".divGrid").click(function() {
             // $(this).css({"background-color" : "#000", "border-color" : "#000"});
             $(this).css({"background-color" : "#F00", "border-color" : "#000"});
         });
@@ -96,16 +97,18 @@ $(document).ready(function () {
     }
 
     function setRandomDraw() {
-        $(".divGrid").off("mouseenter");
-        $(".divGrid").on("mouseenter", function() {
+    $(".divGrid").click(function() {
+        // $(".divGrid").off("mouseenter");
+        // $(".divGrid").on("mouseenter", function() {
             var color = randomColorGen();
             $(this).css({"background-color" : color, "border-color" : color});
         });
     }
 
     function setColorDraw() {
-        $(".divGrid").off("mouseenter");
-        $(".divGrid").on("mouseenter", function() {
+    $(".divGrid").click(function() {
+        // $(".divGrid").off("mouseenter");
+        // $(".divGrid").on("mouseenter", function() {
             $(this).css({"background-color" : color, "border-color" : color});
         });
     }
