@@ -76,7 +76,8 @@ $(document).ready(function () {
 
         // Establishes the initial black-only coloring method
         $(".divGrid").on("mouseenter", function() {
-            $(this).css({"background-color" : "#000", "border-color" : "#000"});
+            // $(this).css({"background-color" : "#000", "border-color" : "#000"});
+            $(this).css({"background-color" : "#F00", "border-color" : "#000"});
         });
     }
 
